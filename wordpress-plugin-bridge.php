@@ -133,46 +133,7 @@ function faap_get_letterhead_logo_url() {
 }
 
 function faap_get_banking_policy_html() {
-    return '<div style="margin-top:26px;padding:14px;border:1px solid #e5e7eb;border-radius:10px;background:#f9fafb;">
-      <h3 style="margin:0 0 10px;font-size:14px;color:#0a192f;font-weight:800;">Banking Policy & Terms</h3>
-
-      <div style="font-size:12px;color:#374151;line-height:1.5;">
-        <p style="margin:0 0 8px;"><strong>Required Documentation & Accuracy</strong></p>
-        <ul style="margin:0 0 12px 18px;">
-          <li>All information must be true, accurate, complete, and legible.</li>
-          <li>Required documents must be submitted clearly and in the correct format.</li>
-          <li>Incomplete or missing documentation may result in application rejection.</li>
-        </ul>
-
-        <p style="margin:0 0 8px;"><strong>Account Type & Change Policy</strong></p>
-        <ul style="margin:0 0 12px 18px;">
-          <li>Account type selection is final and cannot be changed after opening.</li>
-          <li>The bank may request additional documentation or enhanced due diligence at any time.</li>
-        </ul>
-
-        <p style="margin:0 0 8px;"><strong>Payment & Fee Policy</strong></p>
-        <ul style="margin:0 0 12px 18px;">
-          <li>The account opening fee is a mandatory compliance processing fee and does not guarantee account approval.</li>
-          <li>Payments must follow the instructed methods; KTT/TELEX payments are strictly not accepted.</li>
-          <li>Minimum balance requirement: USD/EUR 5,000 must be maintained at all times.</li>
-          <li>If the application is declined, a full refund is issued within 10 business days to the original payment source.</li>
-          <li>If the account is approved, the fee is non-refundable.</li>
-        </ul>
-
-        <p style="margin:0 0 8px;"><strong>Payment Methods</strong></p>
-        <ul style="margin:0 0 12px 18px;">
-          <li>SWIFT international wire transfer (EURO / USD) – reference: Application ID + Onboarding & Compliance Processing Fee.</li>
-          <li>Cryptocurrency (USDT TRC20) – provide TXID, amount sent, sending wallet address, and timestamp/screenshot.</li>
-          <li>Crypto payments are non-custodial; PCM does not provide custody, brokerage, or wallet services.</li>
-        </ul>
-
-        <p style="margin:0 0 8px;"><strong>Compliance & Verification</strong></p>
-        <ul style="margin:0 0 0 18px;">
-          <li>The bank may verify supplied information and perform AML/KYC checks.</li>
-          <li>False or misleading information may result in application rejection or account closure.</li>
-        </ul>
-      </div>
-    </div>';
+    return '<div style="margin-top:26px;padding:14px;border:1px solid #e5e7eb;border-radius:10px;background:#f9fafb;"><div style="font-size:13px;color:#111827;line-height:1.45;"><div style="margin-bottom:8px;font-weight:700;font-size:14px;">AGREED AND ATTESTED</div><div>By signing and submitting this Personal Bank Account Application, the Applicant(s) acknowledge(s), confirm(s), attest(s), represent(s), warrant(s), and irrevocably agree(s) to the following:</div><div style="margin-top:8px;font-weight:700;">A. Mandatory Submission Requirements (Strict Compliance)</div><div style="margin-top:2px;">The Applicant(s) understand(s), acknowledge(s), and accept(s) that the Bank shall automatically reject, without substantive review, processing, or response, any application submitted without all mandatory items required by the Bank, including, without limitation:<br><ul style="margin:4px 0 4px 18px;color:#111827;"><li>Full Personal Bank Account opening fee</li><li>Valid proof of payment</li><li>All required documentation, disclosures, and supporting materials specified in the application form</li></ul>The Applicant(s) further acknowledge(s) that repeated submission of incomplete, deficient, inaccurate, or non-compliant applications may, at the Bank’s sole and absolute discretion, result in permanent disqualification from reapplying for any banking product or service.</div><div style="margin-top:6px;font-weight:700;">B. Payment Instructions (Opening Fee)</div><div style="margin-top:2px;">The Applicant(s) acknowledge(s), understand(s), and accept(s) that payments made via KTT/TELEX are strictly prohibited and shall not be accepted under any circumstances for payment of the bank account opening fee.<br>Accepted methods of payment for the opening fee are strictly limited to the following:<br><ul style="margin:4px 0 4px 18px;color:#111827;"><li>SWIFT international wire transfer</li><li>Cryptocurrency transfer to the designated wallet address listed in the application form</li></ul>The Applicant(s) further acknowledge(s) that the Application ID must be included in the payment reference field exactly as instructed by the Bank in order to ensure proper and timely allocation of funds. Incomplete, inaccurate, omitted, misdirected, or improperly referenced payments may delay processing and may result in rejection of the application, without liability to the Bank.</div><div style="margin-top:6px;font-weight:700;">C. Account Opening Requirements</div><div style="margin-top:2px;">The Applicant(s) acknowledge(s), understand(s), and accept(s) that:<br><ul style="margin:4px 0 4px 18px;color:#111827;"><li>A minimum balance of USD/EUR 5,000 must be maintained at all times.</li><li>Ongoing adherence to the Bank’s account policies, procedures, operational requirements, and compliance standards is required in order to maintain access to banking services.</li><li>If the account balance falls below the minimum required level, the Bank may restrict services, request corrective funding, apply internal controls, and/or place the account under compliance, risk, or administrative review until the deficiency is remedied.</li></ul></div><div style="margin-top:6px;font-weight:700;">D. Finality of Account Type Selection; No Conversion or Reclassification After Opening</div><div style="margin-top:2px;">The Applicant(s) hereby acknowledge(s), confirm(s), represent(s), warrant(s), and irrevocably agree(s) that the account category selected in this Application is made solely at the Applicant’s own election, responsibility, and risk, and shall be deemed final for purposes of the submitted Application.<br>The Applicant(s) further acknowledge(s) and accept(s) that, once the Application has been submitted, approved by the Bank, and the account has been opened, activated, or established under the selected account category, such account category shall be final and may not thereafter be amended, converted, substituted, re-designated, reclassified, exchanged, or otherwise modified into any other account type, whether in whole or in part.</div><div style="margin-top:6px;font-weight:700;">E. Transaction Profile and Ongoing Due Diligence</div><div style="margin-top:2px;">The Applicant(s) acknowledge(s) and accept(s) that:<br><ul style="margin:4px 0 4px 18px;color:#111827;"><li>Account activity must at all times reasonably align with the information declared in this application.</li><li>Any material deviation, inconsistency, anomaly, or change in activity profile may require additional verification and may be delayed, restricted, reviewed, declined, or otherwise subject to enhanced due diligence.</li><li>The Applicant(s) agree(s) to provide such additional documentation, declarations, evidence, or clarifications as the Bank may request at any time to satisfy AML/KYC and risk requirements.</li></ul></div><div style="margin-top:6px;font-weight:700;">F. Accuracy and Authorization</div><div style="margin-top:2px;">The Applicant(s) hereby affirm(s), represent(s), warrant(s), and undertake(s) that:<br><ul style="margin:4px 0 4px 18px;color:#111827;"><li>All information provided in this application is true, accurate, complete, current, and not misleading in any respect.</li><li>The information is submitted for the purpose of establishing a service relationship with Prominence Bank under the Terms and Conditions disclosed prior to submission and accepted by the Applicant(s) upon signature and/or submission.</li></ul>The Applicant(s) hereby authorize(s) the Bank, without further notice except where required by applicable law or the Bank’s governing framework, to verify details, conduct credit/fraud/identity/sanctions/compliance checks, and request additional information at any time.</div><div style="margin-top:6px;font-weight:700;">G. Account Retention, Record-Keeping, and Banking Relationship (ETMO Framework)</div><div style="margin-top:2px;">The Applicant(s) acknowledge(s) that accounts may be retained or restricted for regulatory, audit, compliance, or operational reasons and that closure is subject to internal policies and applicable legal obligations.</div><div style="margin-top:6px;font-weight:700;">H. Compliance and Regulatory Framework</div><div style="margin-top:2px;">The Applicant(s) acknowledge(s) that the Bank operates under a diplomatic regulatory framework, applies AML/KYC and sanctions controls, and may perform ongoing monitoring and due diligence.</div><div style="margin-top:6px;font-weight:700;">I. Data Processing and Privacy</div><div style="margin-top:2px;">The Applicant(s) agree(s) that personal data is collected and processed for onboarding, compliance, execution, and record retention in accordance with the Bank’s policies. The Applicant(s) can request rights where available under applicable law.</div></div></div>';
 }
 
 function faap_build_application_html($submission) {
